@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body>
+
+    <form method = "get" action="" autocomplete="off">
+        <h1>My Feedback form</h1>
+        <dl>
+            <dt>
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name">                       
+                    </li><br>
+                    <li>
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail">
+                    </li><br>
+                    <li>
+                        <label for="pw">Password:</label>  
+                        <input type="password" id="pw">  
+                    </li><br>
+                    <li>
+                        <span>Please check all the emotions that apply to you:</span>
+                    </li>                        
+                </ul>
+            </dt>
+            <dd>
+                <ul>
+                    <li>
+                        <label for="1">Angry</label>
+                        <input type="checkbox" id="1" name="sa">
+                    </li>
+                    <li>
+                        <label for="2">Sad</label>
+                        <input type="checkbox" id="2"  name="sa">
+                    </li>
+                    <li>
+                        <label for="3">Happy</label>
+                        <input type="checkbox" id="3"  name="sa">
+                    </li>
+                    <li>
+                        <label for="4">Ambivalent</label>
+                        <input type="checkbox" id="4"  name="sa">
+                    </li>
+                </ul>               
+            </dd>
+            <dt>
+                <ul>
+                    <li>How satisfied were you with our service?</li>
+                </ul>                    
+            </dt>
+            <dd>
+                <ul>
+                    <li>
+                        <label for="7">Very satisfied</label>
+                        <input type="radio" id="7" name="service">
+                    </li>
+                    <li>
+                        <label for="8">Satisfied</label>
+                        <input type="radio" id="8" name="service">
+                    </li>
+                    <li>
+                        <label for="9">Didn't care</label>
+                        <input type="radio" id="9" name="service">
+                    </li>
+                    <li>
+                        <label for="10">Dissatisfied</label>
+                        <input type="radio" id="10" name="service">
+                    </li>
+                    <li>
+                        <label for="11">Very dissatisfied</label>
+                        <input type="radio" id="11" name="service">
+                    </li>
+                </ul>
+            </dd>
+            <dt>
+                <ul>
+                    <li>
+                        Further comments: <textarea name="" id="" cols="20" rows="2"></textarea>
+                    </li><br>
+                    <li>
+                        <label for="20">Bio photo:</label>
+                        <input type="text" id="20">
+                        <input type="file"  multiple accept="image/*">
+                    </li>
+                    <li>
+                        Location visited:
+                        <select name="" id="">
+                            <option selected value="">
+                                Selected location                             
+                            </option>    
+                            <option value="">Azerbaijan</option>
+                            <option value="">British</option>
+                            <option value="">Turkey</option>
+                            <option value="">India</option>                        
+                        </select>
+                    </li>
+                    <li>                     
+                        <input type="submit" value="Sabmit">
+                    </li>
+                </ul>
+            </dt>
+        </dl>
+    </form>
+    
+</body>
+</html>
